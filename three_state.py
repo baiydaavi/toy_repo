@@ -208,8 +208,7 @@ def spacetime_diagram(spacetime_field, size=12, colors=cm.get_cmap("Greys")):
 
     size: int, optional (default=12)
         Sets the size of the figure: figsize=(size,size)
-    colors: matplotlib colormap, optional (default=plt.cm.binary)
-        A colormap 'cmap' is called as: colors=plt.cm.cmap
+    colors: matplotlib colormap, optional (default=cm.get_cmap("Greys"))
     """
     plt.figure(figsize=(size, size))
     plt.imshow(spacetime_field, cmap=colors, interpolation="nearest")
