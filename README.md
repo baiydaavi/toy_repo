@@ -1,6 +1,6 @@
 # My Toy Repo
 
-This is a toy repository for learning about git
+This is a toy repository for learning about git - modified 
 
 I just added something to this file
 
